@@ -1,0 +1,51 @@
+man: is a command that displays a command's manual page
+man cd tells you what 
+cd does and it's other properties. will do the same for things like mv, ls, mkdir, etc..
+command used: man cd 
+explanation: tells you what cd is and it's other properties
+output:
+CD(1POSIX)                                    POSIX Programmer's Manual                                    CD(1POSIX)
+
+PROLOG
+       This  manual  page  is  part of the POSIX Programmer's Manual.  The Linux implementation of this interface may
+       differ (consult the corresponding Linux manual page for details of Linux behavior), or the interface  may  not
+       be implemented on Linux.
+
+NAME
+       cd — change the working directory
+
+SYNOPSIS
+       cd [-L|-P] [directory]
+
+       cd -
+
+DESCRIPTION
+       The  cd  utility  shall  change  the working directory of the current shell execution environment (see Section
+       2.12, Shell Execution Environment) by executing the following steps in sequence. (In the following steps,  the
+       symbol  curpath represents an intermediate value used to simplify the description of the algorithm used by cd.
+       There is no requirement that curpath be made visible to the application.)
+
+        1. If no directory operand is given and the HOME environment variable is empty or undefined, the default  be‐
+           havior is implementation-defined and no further steps shall be taken.
+
+        2. If  no  directory  operand  is given and the HOME environment variable is set to a non-empty value, the cd
+           utility shall behave as if the directory named in the HOME environment variable was specified as  the  di‐
+           rectory operand.
+
+        3. If  the  directory operand begins with a <slash> character, set curpath to the operand and proceed to step
+           7.
+
+Type: displays the kind of command the shell will execute
+options: if you type ls it will show what that is an alias for. 
+command: type ls
+explanation: shows you what ls is alias for.
+output:
+ls is aliased to `ls --color=auto'
+
+which: to determine the exact location of a given excuteable.
+options: no other options
+command: which ls
+explanation: will find the location of ls and tells me where it is.
+output:
+/usr/bin/ls
+
