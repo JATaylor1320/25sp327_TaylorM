@@ -1,0 +1,32 @@
+[2025-04-21 16:22:22] [6260] First log message from main.
+[2025-04-21 16:22:22] [6263] SUM: 25 + 17 = 42
+[2025-04-21 16:22:22] [6260] Delaying for 1 seconds...
+[2025-04-21 16:22:22] [6261] Loop message 0 from main.
+[2025-04-21 16:22:22] [6261] SUM: 0 + 1 = 1
+[2025-04-21 16:22:22] [6261] Delaying for 0 seconds...
+[2025-04-21 16:22:22] [6263] Loop message 1 from main.
+[2025-04-21 16:22:22] [6263] SUM: 5 + 6 = 11
+[2025-04-21 16:22:22] [6263] Delaying for 0 seconds...
+[2025-04-21 16:22:22] [6262] Loop message 2 from main.
+[2025-04-21 16:22:22] [6262] SUM: 10 + 11 = 21
+[2025-04-21 16:22:22] [6262] Delaying for 0 seconds...
+[2025-04-21 16:22:22] [6263] Delay finished.
+[2025-04-21 16:22:22] [6261] Delay finished.
+[2025-04-21 16:22:22] [6262] Delay finished.
+[2025-04-21 16:22:23] [6260] Delay finished.
+[2025-04-21 16:26:18] [6906] First log message from main.
+[2025-04-21 16:26:18] [6902] SUM: 25 + 17 = 42
+[2025-04-21 16:26:18] [6903] Delaying for 1 seconds...
+[2025-04-21 16:26:18] [6901] Loop message 0 from main.
+[2025-04-21 16:26:18] [6901] Delaying for 0 seconds...
+[2025-04-21 16:26:18] [6906] SUM: 0 + 1 = 1
+[2025-04-21 16:26:18] [6902] Loop message 1 from main.
+[2025-04-21 16:26:18] [6906] SUM: 5 + 6 = 11
+[2025-04-21 16:26:18] [6906] Loop message 2 from main.
+[2025-04-21 16:26:18] [6906] SUM: 10 + 11 = 21
+[2025-04-21 16:26:18] [6906] Delaying for 0 seconds...
+[2025-04-21 16:26:18] [6901] Delay finished.
+[2025-04-21 16:26:18] [6902] Delaying for 0 seconds...
+[2025-04-21 16:26:18] [6902] Delay finished.
+[2025-04-21 16:26:18] [6906] Delay finished.
+[2025-04-21 16:26:19] [6903] Delay finished.
